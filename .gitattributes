@@ -1,0 +1,128 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Documents
+*.md text diff=markdown
+*.txt text
+*.pdf binary
+
+# Graphics
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.svg text
+
+# Archives
+*.7z binary
+*.gz binary
+*.tar binary
+*.zip binary
+
+# Database
+*.db binary
+*.sqlite binary
+*.sqlite3 binary
+
+# Logs
+*.log text
+
+# Scripts
+*.sh text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Config files
+*.json text
+*.yml text
+*.yaml text
+*.toml text
+*.ini text
+*.cfg text
+*.conf text
+
+# Source code
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.css text
+*.scss text
+*.sass text
+*.html text
+*.xml text
+
+# Documentation
+*.md text diff=markdown
+*.rst text
+*.txt text
+
+# Docker
+Dockerfile text
+docker-compose.yml text
+.dockerignore text
+
+# Git
+.gitignore text
+.gitattributes text
+.gitmodules text
+
+# Package managers
+package.json text
+package-lock.json text
+yarn.lock text
+pnpm-lock.yaml text
+
+# IDE
+.vscode/settings.json text
+.vscode/tasks.json text
+.vscode/launch.json text
+.vscode/extensions.json text
+.idea/workspace.xml text
+.idea/modules.xml text
+.idea/misc.xml text
+.idea/encodings.xml text
+.idea/compiler.xml text
+.idea/libraries/*.xml text
+
+# OS generated files
+.DS_Store binary
+Thumbs.db binary
+ehthumbs.db binary
+Desktop.ini binary
+$RECYCLE.BIN/ binary
+
+# Temporary files
+*.tmp text
+*.temp text
+*.swp text
+*.swo text
+*~ text
+
+# Compiled files
+*.com binary
+*.exe binary
+*.class binary
+*.dll binary
+*.so binary
+*.dylib binary
+
+# Archives
+*.7z binary
+*.gz binary
+*.tar binary
+*.zip binary
+*.rar binary
+*.bz2 binary
+*.xz binary
+
+# Media files
+*.mp3 binary
+*.mp4 binary
+*.avi binary
+*.mov binary
+*.wmv binary
+*.flv binary
+*.wav binary
+*.aac binary
+*.ogg binary 
