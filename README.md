@@ -2,6 +2,8 @@
 
 A modern web application for managing projects with multiple users, built with Next.js, TypeScript, Tailwind CSS, and Prisma.
 
+This project has deployed to https://pm.project.rozag.my.id
+
 ## Features
 
 ### 🔐 Authentication
